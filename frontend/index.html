@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Steganography Tool</h1>
+    <div>
+        <h2>Embed Message</h2>
+        <input type="text" id="embedMessage" placeholder="Enter secret message">
+        <input type="file" id="embedImage">
+        <button onclick="embedMessage()">Embed</button>
+    </div>
+    <div>
+        <h2>Extract Message</h2>
+        <input type="file" id="extractImage">
+        <button onclick="extractMessage()">Extract</button>
+    </div>
+    <div>
+        <h2>Classify Data</h2>
+        <input type="text" id="classifyInput" placeholder="Enter data to classify">
+        <button onclick="classifyData()">Classify</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
