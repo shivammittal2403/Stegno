@@ -1,0 +1,13 @@
+steganography_tool/
+│
+├── backend/
+│   ├── app.py
+│   ├── steganography.py
+│   ├── ai_model.py
+│   ├── requirements.txt
+│
+└── frontend/
+    ├── index.html
+    ├── script.js
+    └── styles.css
+
